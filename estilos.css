@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .carrusel {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .imagenes {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .imagen {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .botones {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  .boton {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+   /* Estilos básicos para el navbar */
+   nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+*{
+    margin: 0%;
+}
+
+.container{
+    
+    
+}
