@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    width: 100%;
   }
   .carrusel {
     width: 80%;
@@ -32,7 +33,7 @@ body {
   }
    /* Estilos básicos para el navbar */
    nav {
-    background-color: #333;
+    background-color: #e8eaf6;
     padding: 10px;
 }
 nav ul {
@@ -48,7 +49,10 @@ nav ul li a {
     text-decoration: none;
 }
 *{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
 
 
@@ -97,4 +101,60 @@ nav ul li a {
 
 .piePagina{
     padding-top: 100%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .jumbotron-custom {
+    background-image: url('../imagenes/nosotros/motitonos.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Para cubrir todo el jumbotron */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Cambia el color del texto para que sea legible */
+    padding: 4rem 2rem; /* Ajusta el padding según sea necesario */
+    min-height: 500px; 
+    max-width: 100%;  
+}
+
+p{  
+    text-align: justify;
+    padding: 5%;
+    font-size: larger;
+}
+
+.row{
+    margin: 0%;
+}
+
+
+
+
+
+.imagenav {
+    background-image: url(../Imagenes/lell.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+
+.dropdown{
+    width: 190px;
+}
+.dropdown button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
